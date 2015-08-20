@@ -1,0 +1,22 @@
+{
+  "name": "simple-linear-scale",
+  "version": "1.0.0",
+  "description": "barebones linear scale",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js --coverage"
+  },
+  "keywords": [
+    "linear",
+    "scale"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mapbox/simple-linear-scale.git"
+  }
+}
