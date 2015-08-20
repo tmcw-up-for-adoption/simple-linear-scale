@@ -1,11 +1,13 @@
 ## `linearScale`
 
+[![build status](https://secure.travis-ci.org/mapbox/simple-linear-scale.png)](http://travis-ci.org/mapbox/simple-linear-scale)
+
 Bare-bones equivalent for the functionality of d3.scale.linear
 
 ### Parameters
 
-* `domain` **`Array<number>`** 
-* `range` **`Array<number>`** 
+* `domain` **`Array<number>`**
+* `range` **`Array<number>`**
 
 
 ### Examples
@@ -22,4 +24,3 @@ scaleFunction(100); // 10
 ```
 
 Returns `Function` scale function
-
