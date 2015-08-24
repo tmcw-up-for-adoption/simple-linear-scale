@@ -9,6 +9,8 @@ test('linearScale', function(t) {
     t.equal(linearScale([0, 10], [0, 10])(1), 1);
     t.equal(linearScale([0, 10], [0, 1])(1), 0.1);
     t.equal(linearScale([0, 10], [0, 10])(20), 20);
+    t.equal(linearScale([0, 0], [99, 0])(20), 99);
+    t.equal(linearScale([0, 100], [42, 42])(20), 42);
     t.equal(linearScale([0, 10], [0, 10], true)(20), 10, 'clamp');
     t.end();
 });
