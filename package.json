@@ -1,6 +1,6 @@
 {
   "name": "simple-linear-scale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "barebones linear scale",
   "main": "index.js",
   "scripts": {
