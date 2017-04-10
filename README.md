@@ -1,5 +1,7 @@
 ## `linearScale`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/simple-linear-scale.svg)](https://greenkeeper.io/)
+
 [![build status](https://secure.travis-ci.org/mapbox/simple-linear-scale.png)](http://travis-ci.org/mapbox/simple-linear-scale)
 
 Bare-bones equivalent for the functionality of d3.scale.linear
